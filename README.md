@@ -35,18 +35,18 @@ The project follows a structured workflow to deliver actionable insights:
 
 ## Project Modules
 
-| Module | Epic | Estimated Time | Status |
-|---|---|---|---|
-| Collect the Dataset | Data Collection & Extraction from Database | 2h 30m | In Progress |
-| Loading the Dataset | Data Collection & Extraction from Database | 2h 30m | In Progress |
-| Data Cleaning | Data Preparation | 5h 0m | In Progress |
-| No. of Unique Visualizations | Data Visualization | 5h 0m | In Progress |
-| Responsive and Design of Dashboard | Dashboard | 5h 0m | To Do |
-| Design of Storyboard | Storyboard | 5h 0m | To Do |
-| Amount of Data Loaded | Performance Testing | 1h 40m | To Do |
-| Utilization of Filters | Performance Testing | 1h 40m | To Do |
-| No. of Visualizations / Graphs | Performance Testing | 1h 40m | To Do |
-| Publishing | Web Integration | 2h 30m | To Do |
-| Dashboard and Story Embed with UI with Flask | Web Integration | 2h 30m | To Do |
-| Record Explanation Video for End to End Solution | Project Demonstration & Documentation | 2h 30m | To Do |
-| Project Documentation | Project Demonstration & Documentation | 2h 30m | To Do |
+| Module | Epic | Estimated Time | Status | Assigned to |
+|---|---|---|---|---|
+| Collect the Dataset | Data Collection & Extraction from Database | 2h 30m | In Progress | Utkarsh Sahu |
+| Loading the Dataset | Data Collection & Extraction from Database | 2h 30m | In Progress | Utkarsh Sahu |
+| Data Cleaning | Data Preparation | 5h 0m | In Progress | Utkarsh Sahu |
+| No. of Unique Visualizations | Data Visualization | 5h 0m | In Progress | Utkarsh Sahu |
+| Responsive and Design of Dashboard | Dashboard | 5h 0m | To Do | |
+| Design of Storyboard | Storyboard | 5h 0m | To Do | |
+| Amount of Data Loaded | Performance Testing | 1h 40m | To Do | |
+| Utilization of Filters | Performance Testing | 1h 40m | To Do | |
+| No. of Visualizations / Graphs | Performance Testing | 1h 40m | To Do | |
+| Publishing | Web Integration | 2h 30m | To Do | |
+| Dashboard and Story Embed with UI with Flask | Web Integration | 2h 30m | To Do | |
+| Record Explanation Video for End to End Solution | Project Demonstration & Documentation | 2h 30m | To Do | |
+| Project Documentation | Project Demonstration & Documentation | 2h 30m | To Do | |
