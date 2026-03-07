@@ -1,0 +1,17 @@
+This process helps to make the data easily understandable and ready for creating visualizations to gain insights into the performance and efficiency. Follow these steps to make sure it’s ready for analysis:
+
+Data Review & Exploration:
+Take some time to explore your data by checking the data types, value ranges, and distributions. This helps you understand the structure of your dataset, spot any outliers, and get familiar with what you’ll be working with.
+
+Filtering and Structuring for Purpose:
+Depending on your project goals, you might want to filter the data to focus on specific parts—like certain years, regions, or categories. Organizing your data this way will make your visualizations clearer and more relevant.
+
+Field Renaming & Final Formatting:
+Rename any confusing field names to make them easier to understand. Also, double-check that dates, numbers, and other data types are correct, especially if you’re working with multiple tables.
+
+Optional Calculated Fields:
+If needed, create new fields using calculations—like profit margins or growth rates—to add more insights to your analysis.
+
+Validation for Accuracy:
+Lastly, quickly verify your data by comparing key numbers with the original source or summary stats. This helps ensure your analysis will be trustworthy.
+
