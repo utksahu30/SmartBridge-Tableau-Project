@@ -48,5 +48,5 @@ The project follows a structured workflow to deliver actionable insights:
 | No. of Visualizations / Graphs | Performance Testing | 1h 40m | Review | Vidisha Singh |
 | Publishing | Web Integration | 2h 30m | Review | Vidisha Singh |
 | Dashboard and Story Embed with UI with Flask | Web Integration | 2h 30m | Review | Vidisha Singh |
-| Record Explanation Video for End to End Solution | Project Demonstration & Documentation | 2h 30m | Review | |
-| Project Documentation | Project Demonstration & Documentation | 2h 30m | Review | |
+| Record Explanation Video for End to End Solution | Project Demonstration & Documentation | 2h 30m | Review | Utkarsh Sahu |
+| Project Documentation | Project Demonstration & Documentation | 2h 30m | Review | Utkarsh Sahu |
