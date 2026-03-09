@@ -50,3 +50,7 @@ The project follows a structured workflow to deliver actionable insights:
 | Dashboard and Story Embed with UI with Flask | Web Integration | 2h 30m | Review | Vidisha Singh |
 | Record Explanation Video for End to End Solution | Project Demonstration & Documentation | 2h 30m | Review | Utkarsh Sahu |
 | Project Documentation | Project Demonstration & Documentation | 2h 30m | Review | Utkarsh Sahu |
+
+## Tableau Public Links
+https://public.tableau.com/app/profile/utks/viz/ProjectFinalWorkbook/Dashboard1?publish=yes
+https://public.tableau.com/app/profile/utks/viz/ProjectFinalWorkbook/Story2?publish=yes
