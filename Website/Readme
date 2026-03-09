@@ -1,0 +1,59 @@
+Readme
+
+Project Architecture
+The project follows a standard static web structure, utilizing Semantic HTML5 for structure and Modern CSS3 (including variables and Flex/Grid) for a cohesive, dark-themed aesthetic.
+1. Navigation & Global Layout
+Every page shares a consistent site-header containing:
+Brand Identity: "Housing Market Analysis" link.
+Navigation Menu: Links to Home, Dashboard, Story, and About.
+Active States: The active class is dynamically applied to the current page link to provide visual feedback to the user.
+2. Technology Stack
+Frontend: HTML5, CSS3 (Custom properties/Variables).
+Data Visualization: Tableau Public (via JavaScript API embedding).
+Styling: Responsive Design with a focus on dark mode UI, using gradients and backdrop-filter for a modern "glassmorphism" feel.
+Animations: CSS @keyframes (fade-up) are used to create a staggered entry effect as the user scrolls or loads the page.
+
+Page Breakdown
+Home (index.html)
+The entry point of the application. It focuses on high-level summaries.
+Hero Section: Features a bold mission statement with a call-to-action (CTA) button leading to the dashboard.
+Project Overview: A placeholder section for describing the dataset and methodology.
+Key Insights Grid: A 3-column layout (on desktop) that highlights:
+Price Drivers: Factors influencing home value.
+Neighborhood Trends: Geographic analysis.
+Market Signals: Outliers and seasonal trends.
+Dashboard (dashboard.html)
+This is the primary analytical tool of the site.
+Embedding: Uses an <object> tag to embed a Tableau workbook (ProjectFinalWorkbook/Dashboard1).
+Responsive Logic: Includes a custom <script> that calculates the container width and adjusts the height of the Tableau iframe dynamically to ensure the visualization remains legible on mobile, tablet, and desktop.
+Story (story.html)
+Similar to the dashboard page, but specifically displays a Tableau Story (ProjectFinalWorkbook/Story2).
+Purpose: Whereas the dashboard is for exploration, the "Story" page is designed for a guided narrative, walking users through specific findings in a sequential format.
+About (about.html)
+Provides context on the "why" and "how" of the project.
+The Vision: Explains the goal of merging data science with storytelling.
+Tech Stack Details: Mentions the use of Python for data preparation and Tableau for visualization.
+Project Objectives: Clearly lists identifying price drivers and supporting interactive exploration as core goals.
+
+Design & Styling (style.css)
+The visual identity is defined by a sophisticated dark theme:
+Color Palette:
+Background (--bg): Dark Charcoal (#111111).
+Accent (--accent): Bold Red (#E6232E), used for buttons and active states.
+Surface (--surface): Lighter grey (#1A1A1A) to create depth.
+Responsiveness:
+Desktop: Uses grid-template-columns: repeat(3, 1fr) for cards.
+Tablets/Mobile: Media queries collapse grids into single columns and adjust navigation links to wrap, ensuring usability on small screens.
+Special Effects:
+Gradients: Backgrounds use subtle radial gradients to prevent the dark theme from looking "flat."
+Animations: The .reveal class triggers a subtle upward slide and fade-in when pages load.
+
+How it Works: The Tableau Integration
+The most complex part of the code is the script located at the bottom of dashboard.html and story.html.
+Injection: It creates a new <script> element to fetch the official Tableau API (viz_v1.js).
+Sizing Engine: The adjustDashboardSize() function detects the browser width:
+> 900px: Sets height to 82% of width.
+560px - 900px: Sets height to 112% of width.
+< 560px (Mobile): Forces a tall 1800px height to accommodate stacked mobile charts.
+Event Listeners: The script listens for the window.resize event to recalculate these dimensions instantly if a user rotates their phone or resizes their browser.
+
